@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Face Makeup - Sace Lady</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-pink">
+    <a class="navbar-brand" href="homepage.html">SACE LADY</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="homepage.html">Home</a></li>
+        <li class="nav-item active"><a class="nav-link" href="face-makeup.html">Face Makeup</a></li>
+        <li class="nav-item"><a class="nav-link" href="eye-makeup.html">Eye Makeup</a></li>
+        <li class="nav-item"><a class="nav-link" href="lip-makeup.html">Lip Makeup</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Face Makeup Collection Section -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Sace Lady Face Makeup Collection</h2>
+    <div class="row">
+      <!-- Product 1: Full Coverage Waterproof Concealer -->
+      <div class="col-md-4 text-center">
+        <img src="images/concealer.webp" class="img-fluid rounded" alt="Full Coverage Waterproof Concealer">
+        <h5 class="mt-2">Full Coverage Waterproof Concealer</h5>
+        <p><strong>₱399.00</strong></p>
+        <button class="btn btn-sm btn-outline-dark" onclick="toggleDetails('concealer-details')">More Details</button>
+        <div id="concealer-details" style="display: none; text-align: left; margin-top: 10px;">
+          <p>Hide imperfections, dark circles, and redness with this full-coverage, waterproof concealer.</p>
+          <ul>
+            <li>Highly pigmented</li>
+            <li>Long-lasting and waterproof</li>
+            <li>Perfect for all skin types</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Product 2: Sace Lady Blush -->
+      <div class="col-md-4 text-center">
+        <img src="images/blush.webp" class="img-fluid rounded" alt="Sace Lady Blush">
+        <h5 class="mt-2">Sace Lady Blush</h5>
+        <p><strong>₱299.00</strong></p>
+        <button class="btn btn-sm btn-outline-dark" onclick="toggleDetails('blush-details')">More Details</button>
+        <div id="blush-details" style="display: none; text-align: left; margin-top: 10px;">
+          <p>Give your cheeks a natural flush with our soft, blendable Sace Lady blush. Available in multiple shades.</p>
+          <ul>
+            <li>Buildable color</li>
+            <li>Long-lasting finish</li>
+            <li>Perfect for all skin tones</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Product 3: Sace Lady Highlighter -->
+      <div class="col-md-4 text-center">
+        <img src="images/highlighter.webp" class="img-fluid rounded" alt="Sace Lady Highlighter">
+        <h5 class="mt-2">Sace Lady Highlighter</h5>
+        <p><strong>₱399.00</strong></p>
+        <button class="btn btn-sm btn-outline-dark" onclick="toggleDetails('highlighter-details')">More Details</button>
+        <div id="highlighter-details" style="display: none; text-align: left; margin-top: 10px;">
+          <p>Illuminate your complexion with this ultra-glowing, radiant highlighter.</p>
+          <ul>
+            <li>Provides a dewy finish</li>
+            <li>Perfect for cheekbones and the cupid's bow</li>
+            <li>Available in gold and rose gold tones</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Product 4: Lasting Waterproof Face Powder -->
+      <div class="col-md-4 text-center">
+        <img src="images/facepowder.webp" class="img-fluid rounded" alt="Lasting Waterproof Face Powder">
+        <h5 class="mt-2">Lasting Waterproof Face Powder</h5>
+        <p><strong>₱249.00</strong></p>
+        <button class="btn btn-sm btn-outline-dark" onclick="toggleDetails('powder-details')">More Details</button>
+        <div id="powder-details" style="display: none; text-align: left; margin-top: 10px;">
+          <p>This face powder is waterproof and keeps your makeup intact all day.</p>
+          <ul>
+            <li>Sets makeup perfectly</li>
+            <li>Lightweight and breathable</li>
+            <li>Great for oily skin</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Product 5: Day & Night Loose Powder Black Gold Series -->
+      <div class="col-md-4 text-center">
+        <img src="images/loosepowder.webp" class="img-fluid rounded" alt="Day & Night Loose Powder Black Gold Series">
+        <h5 class="mt-2">Day & Night Loose Powder Black Gold Series</h5>
+        <p><strong>₱399.00</strong></p>
+        <button class="btn btn-sm btn-outline-dark" onclick="toggleDetails('loosepowder-details')">More Details</button>
+        <div id="loosepowder-details" style="display: none; text-align: left; margin-top: 10px;">
+          <p>This ultra-fine powder provides a natural, airbrushed finish while absorbing excess oil.</p>
+          <ul>
+            <li>Blurs imperfections</li>
+            <li>Suitable for all skin types</li>
+            <li>Perfect for day and night wear</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Product 6: Lasting Waterproof BB Cushion -->
+      <div class="col-md-4 text-center">
+        <img src="images/cushion.webp" class="img-fluid rounded" alt="Lasting Waterproof BB Cushion">
+        <h5 class="mt-2">Lasting Waterproof BB Cushion</h5>
+        <p><strong>₱499.00</strong></p>
+        <button class="btn btn-sm btn-outline-dark" onclick="toggleDetails('bb-cushion-details')">More Details</button>
+        <div id="bb-cushion-details" style="display: none; text-align: left; margin-top: 10px;">
+          <p>This BB Cushion provides a full-coverage finish with a natural, radiant glow that lasts all day.</p>
+          <ul>
+            <li>SPF 50+ protection</li>
+            <li>Hydrating and smooth texture</li>
+            <li>Long-lasting wear</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Product 7: SACE LADY PRO ZONE 24HR Ultra Cover Matte BB Cushion -->
+      <div class="col-md-4 text-center">
+        <img src="images/bb.webp" class="img-fluid rounded" alt="SACE LADY PRO ZONE 24HR Ultra Cover Matte BB Cushion">
+        <h5 class="mt-2">SACE LADY PRO ZONE 24HR Ultra Cover Matte BB Cushion</h5>
+        <p><strong>₱599.00</strong></p>
+        <button class="btn btn-sm btn-outline-dark" onclick="toggleDetails('prozone-bb-details')">More Details</button>
+        <div id="prozone-bb-details" style="display: none; text-align: left; margin-top: 10px;">
+          <p>Experience full coverage with a smooth matte finish and long-lasting power that lasts up to 24 hours.</p>
+          <ul>
+            <li>Provides perfect coverage</li>
+            <li>Oil-free and non-greasy</li>
+            <li>Ideal for oily and combination skin</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Product 8: Matte Waterproof Liquid Foundation -->
+      <div class="col-md-4 text-center">
+        <img src="images/foundation.webp" class="img-fluid rounded" alt="Matte Waterproof Liquid Foundation">
+        <h5 class="mt-2">Matte Waterproof Liquid Foundation</h5>
+        <p><strong>₱449.00</strong></p>
+        <button class="btn btn-sm btn-outline-dark" onclick="toggleDetails('foundation-details')">More Details</button>
+        <div id="foundation-details" style="display: none; text-align: left; margin-top: 10px;">
+          <p>This foundation offers full coverage and is designed to withstand humidity and sweat.</p>
+          <ul>
+            <li>Long-lasting matte finish</li>
+            <li>Great for oily skin</li>
+            <li>Waterproof formula</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Product 9: Oil Control Foundation Primer -->
+      <div class="col-md-4 text-center">
+        <img src="images/primer.webp" class="img-fluid rounded" alt="Oil Control Foundation Primer">
+        <h5 class="mt-2">Oil Control Foundation Primer</h5>
+        <p><strong>₱299.00</strong></p>
+        <button class="btn btn-sm btn-outline-dark" onclick="toggleDetails('primer-details')">More Details</button>
+        <div id="primer-details" style="display: none; text-align: left; margin-top: 10px;">
+          <p>Prepare your skin for flawless makeup application with this oil-controlling primer.</p>
+          <ul>
+            <li>Mattifies skin</li>
+            <li>Blurs pores and fine lines</li>
+            <li>Helps makeup last longer</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 Sace Lady Inspired. All rights reserved.
+  </footer>
+
+  <script>
+    function toggleDetails(id) {
+      const el = document.getElementById(id);
+      el.style.display = (el.style.display === "none") ? "block" : "none";
+    }
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

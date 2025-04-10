@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lip Makeup - Sace Lady</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-pink">
+    <a class="navbar-brand" href="homepage.html">SACE LADY</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="homepage.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="face-makeup.html">Face Makeup</a></li>
+        <li class="nav-item"><a class="nav-link" href="eye-makeup.html">Eye Makeup</a></li>
+        <li class="nav-item active"><a class="nav-link" href="lip-makeup.html">Lip Makeup</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Lip Makeup Collection Section -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Sace Lady Lip Makeup Collection</h2>
+    <div class="row">
+      <!-- Product 1: Waterproof Liquid Lipstick Gloss Mini Set -->
+      <div class="col-md-4 text-center">
+        <img src="images/gloss.webp" class="img-fluid rounded" alt="Waterproof liquid Lipstick Gloss Mini Set">
+        <h5 class="mt-2">Waterproof Liquid Lipstick Gloss Mini Set</h5>
+        <p><strong>₱499.00</strong></p>
+        <button class="btn btn-sm btn-outline-dark" onclick="toggleDetails('gloss-details')">More Details</button>
+        <div id="gloss-details" style="display: none; text-align: left; margin-top: 10px;">
+          <p>This mini set features waterproof liquid glosses with a smooth finish and vibrant colors.</p>
+          <ul>
+            <li>Long-lasting wear</li>
+            <li>Transfer-proof formula</li>
+            <li>Available in 5 trendy shades</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Product 2: Matte Finish 2 in 1 Matte Lipstick -->
+      <div class="col-md-4 text-center">
+        <img src="images/matte.webp" class="img-fluid rounded" alt="Matte Finish 2 in 1 Matte Lipstick">
+        <h5 class="mt-2">Matte Finish 2 in 1 Matte Lipstick</h5>
+        <p><strong>₱349.00</strong></p>
+        <button class="btn btn-sm btn-outline-dark" onclick="toggleDetails('matte-details')">More Details</button>
+        <div id="matte-details" style="display: none; text-align: left; margin-top: 10px;">
+          <p>Get a velvety matte finish with this 2 in 1 lipstick that doubles as a lip liner.</p>
+          <ul>
+            <li>Full coverage color</li>
+            <li>Non-drying formula</li>
+            <li>Lasts for hours without fading</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Product 3: Moisturized Tinted Lip Balm -->
+      <div class="col-md-4 text-center">
+        <img src="images/tintedbalm.webp" class="img-fluid rounded" alt="Moisturized Tinted Lip Balm">
+        <h5 class="mt-2">Moisturized Tinted Lip Balm</h5>
+        <p><strong>₱249.00</strong></p>
+        <button class="btn btn-sm btn-outline-dark" onclick="toggleDetails('tintedbalm-details')">More Details</button>
+        <div id="tintedbalm-details" style="display: none; text-align: left; margin-top: 10px;">
+          <p>This tinted lip balm provides hydration with a pop of color for a natural look.</p>
+          <ul>
+            <li>Contains nourishing ingredients</li>
+            <li>Available in 4 beautiful shades</li>
+            <li>Perfect for everyday wear</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Product 4: Hyaluronic Acid Lip Treatment Oil -->
+      <div class="col-md-4 text-center">
+        <img src="images/lipoil.webp" class="img-fluid rounded" alt="Hyaluronic Acid Lip Treatment Oil">
+        <h5 class="mt-2">Hyaluronic Acid Lip Treatment Oil</h5>
+        <p><strong>₱399.00</strong></p>
+        <button class="btn btn-sm btn-outline-dark" onclick="toggleDetails('lipoil-details')">More Details</button>
+        <div id="lipoil-details" style="display: none; text-align: left; margin-top: 10px;">
+          <p>This lip treatment oil hydrates and plumps lips, leaving them soft and smooth.</p>
+          <ul>
+            <li>Infused with hyaluronic acid</li>
+            <li>Provides long-lasting moisture</li>
+            <li>Non-greasy and lightweight</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 Sace Lady Inspired. All rights reserved.
+  </footer>
+
+  <script>
+    function toggleDetails(id) {
+      const el = document.getElementById(id);
+      el.style.display = (el.style.display === "none") ? "block" : "none";
+    }
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
